@@ -6,9 +6,9 @@ class node:
         self.totalCost=totalCost
 
 graph={
-    'A':node('A', None, ['B', 'C', 'E'], None),
+    'A':node('A', None, ['E', 'C', 'D'], None),
     'B':node('B', None, ['A', 'D', 'E'], None),
-    'C':node('C', None, ['A', 'F', 'G'], None),
+    'C':node('C', None, ['B', 'A, 'G'], None),
     'D':node('D', None, ['B', 'E'], None),
     'E':node('E', None, ['A', 'B', 'D'], None),
     'F':node('F', None, ['C'], None),
